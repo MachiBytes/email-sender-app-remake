@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TITLE OF EMAIL TEMPLATE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+            line-height: 1.5;
+            background-color: #F4F1FA;
+            color: #232F3E;
+        }
+
+        table {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .wrapper {
+            max-width: 60rem;
+            padding-bottom: 0.3rem;
+        }
+
+        .header-logo {
+            display: block;
+            max-width: 100%;
+        }
+
+        .container{
+            padding: 2rem 1.5rem;
+        }
+        .name{
+            padding-bottom: 1.5rem;
+        }
+        .main {
+            padding: 3rem 2rem 1rem 2rem;
+            text-align: justify;
+            background-color: #FFFFFF;
+            border-radius: 0.5rem;
+        }
+        .yellow{
+            color: #F2A12B;
+            font-weight: bold;
+        }
+
+        hr.line{
+            margin: 2.5rem 0 1.5rem 0;
+        }
+        .grey{
+            color: #666666;
+        }
+        .important{
+            margin: -0.7rem auto auto 1rem;
+        }
+        .important p{
+            margin-bottom: -0.6rem;
+        }
+        .important-deets p{
+            margin-left: 2rem;
+            margin-bottom: -0.3rem;
+        }
+        .signature {
+            color: #666666;
+            padding-bottom: 1rem;
+            padding-top: 1.5rem;
+            font-weight: bold;
+        }
+        .footer-logo{
+            display: block;
+            max-width: 100%;
+        }
+        .pad-s{
+            padding-top: 1.5rem;
+        }
+        .social img{
+            width: 2rem;
+            margin-top: -0.5rem;
+            margin-right: 1rem;
+        }
+        .social a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table class="wrapper">
+        <tr>
+            <td style="background-color: #330066;">
+                <!-- Logo Header -->
+                <table>
+                    <tr>
+                        <td>
+                            <a href="#"><img src="https://github.com/AWSCC-PUPMNL-Cloud-Computing/assets/blob/main/email-assets/Header.png?raw=true" class="header-logo"></a>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- Main Content -->
+                <div class="container">
+                    <table class="main">
+                        <tr>
+                            <td>
+                                <p class="name">Hi <b>{{ NAME }}</b>,</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <span class="yellow">labore et dolore magna aliqua</span>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                                </p>
+                                <hr class="line"></hr>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                                </p>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <div class="important">
+                                    <p class="grey"><strong>Important Details:</strong</p>
+                                    <div class="important-deets">
+                                        <p><span class="grey">Date: &nbsp;</span>{{ DATE }}</p>
+                                        <p><span class="grey">Time: &nbsp;</span>{{ TIME }}</p>
+                                    </div>
+                                </div>
+                                <hr class="line"></hr>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <div class="signature">
+                                    <strong>
+                                        — Name
+                                    </strong> <br>
+                                    <i>Position<br></i>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="social">
+                                    <p class="grey"><i>Follow us on our social media pages:</i></p>
+
+                                    <a href="https://www.facebook.com/AWSCloudClubPUPManila"><img
+                                        src="https://github.com/AWSCC-PUPMNL-Cloud-Computing/assets/blob/main/email-assets/FaceBook.png?raw=true" alt="Facebook Logo" alt="Facebook Logo"></a>
+                            
+                                    <a href="https://www.instagram.com/awscc_pupmnl/"><img
+                                        src="https://github.com/AWSCC-PUPMNL-Cloud-Computing/assets/blob/main/email-assets/Instagram.png?raw=true" alt="Instagram Logo" alt="Instagram Logo"></a>
+                                        
+                                    <a href="https://www.linkedin.com/company/aws-cloud-club-%E2%80%93-pup-manila/"><img
+                                        src="https://github.com/AWSCC-PUPMNL-Cloud-Computing/assets/blob/main/email-assets/LinkedIn.png?raw=true" alt="LinkedIn Logo" alt="LinkedIn Logo"></a>
+                                </div>
+                            </td>
+                        </tr>
+                </table>
+            </div>
+                
+                <!-- Footer -->
+                <table>
+                    <tr>
+                        <td class="footer">
+                            <a href="#"><img src="https://github.com/AWSCC-PUPMNL-Cloud-Computing/assets/blob/main/email-assets/Footer.png?raw=true" alt="AWSCC-PUP Footer" class="footer-logo"></a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

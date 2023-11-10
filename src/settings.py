@@ -1,0 +1,9 @@
+APPEARANCE_MODE = "dark"
+APP_GEOMETRY = "500x500"
+APP_TITLE = "Email Sender App"
+
+USERNAME = ""
+PASSWORD = ""
+TOKEN = ""
+STAY = False
+APP_TOKEN = "mKJDlkjsdioJMD809sdm89DUM98sdkmKLDJ"
