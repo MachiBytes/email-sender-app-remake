@@ -4,7 +4,7 @@ from src import settings
 import os
 
 def app_initialized():
-    if not os.path.is_dir("data"):
+    if not os.path.isdir("data"):
         os.mkdir("data")
 
     if os.path.exists("data/credentials.json"):
